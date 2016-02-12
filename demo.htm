@@ -1,0 +1,47 @@
+<!doctype html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="assets/blossomfeaturebox.css" />
+<link rel="stylesheet" href="assets/optincontent.css" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+<script src="assets/blossomfeaturebox.js">
+
+/**
+ * JK Responsive Gallery Script
+ * Copyright JavaScript Kit (www.javascriptkit.com)     
+ * Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code       
+ */
+
+</script>
+
+<script>
+
+jQuery(function($){	// on DOM load
+
+	blossomfeaturebox.init({
+		optinfile: 'assets/optincontent.txt', // #id of feature box markup on page or path to .txt file with markup
+		fxeffect: 'swing',
+		displaytype: 'immediate', // displaytype: '5s', // 'integer%" OR 'integer PLUS 's' OR "always"
+		displayfreq: {duration: 'always', cookiename: 'featurebox'}
+	})
+
+})
+
+
+</script>
+
+</head>
+
+<body>
+
+
+<button onClick="blossomfeaturebox.showfeaturebox(1)">Open Feature Box Again</button>
+
+<div style="height:1500px"></div>
+
+</body>
+
+</html>
