@@ -9,6 +9,8 @@
 + Optional scroll based delivery- feature box can be shown only when the user has scrolled the document by a certain percentage, such as 50% or 100% (when the user is at the end of the page).
 + Robust frequency control- limit the display of the feature box to avoid annoying users- once per session, every 5 minutes, 10 hours, or 30 days etc. It's  up to you.
 
+![Blossom Opt In Feature Box](https://cloud.githubusercontent.com/assets/3308663/12998123/b431a3d8-d0f4-11e5-83ee-43ff283b8aef.jpg)
+
 The script works in IE7+ and all modern browsers, with lower end IE browsers showing a more limited interface without any special effects.
 
 ## Directions ##
